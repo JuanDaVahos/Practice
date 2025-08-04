@@ -10,29 +10,34 @@
     />
     <title>Estadisticas de trabajos tech en linkedin</title>
     <link rel="icon" href="./svg/logo.svg" />
+    <script src="./js/index.js" defer></script>
   </head>
   <body>
     <header>
-      <a href="./index.html"
-        ><img src="./svg/logo.svg" alt="Logo" width="50" height="50"
-      /></a>
-      <nav>
-        <ul>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Estadisticas</a></li>
-          <li><a href="#">Creadores</a></li>
-          <li>
-            <a href="https://www.linkedin.com/" target="_blank"
-              ><img
-                src="./svg/icons8-linkedin.svg"
-                alt="Logo linkedin"
-                width="35"
-                height="35"
-            /></a>
-          </li>
-        </ul>
-      </nav>
+      <div class="headerDiv">
+        <a href="./index.html">
+          <img
+            src="./svg/logo.svg"
+            alt="Logo De CodeCraft"
+            width="50px"
+            hight="50px"
+          />
+        </a>
+        <input type="checkbox" id="Menu" style="display: none" />
+        <label class="iconMenu" for="Menu"
+          ><img src="./svg/menu-close.svg" alt="" />
+        </label>
+        <nav class="navbar">
+          <ul>
+            <a href="./index.html">Inicio</a>
+            <a href="./pages/stast">Estadisticas</a>
+            <a href="./pages/info">Creadores</a>
+            <a href="./pages/fuentes">Fuentes</a>
+          </ul>
+        </nav>
+      </div>
     </header>
+
     <main>
       <div class="main">
         <section class="hero">
