@@ -67,6 +67,7 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 2;
+  gap: 20px;
   text-align: center;
   width: 60%;
 }
